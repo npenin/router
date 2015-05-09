@@ -1,5 +1,7 @@
 var param = function(val) {
 	return function(map) {
+	    if(val=='')
+	        return '/';
 		return map[val] || '';
 	};
 };
@@ -28,6 +30,6 @@ module.exports = function (format)
         return format.reduce(function (result, item)
         {
             return result + item(params);
-        }, '').replace(/\/+/g, '/').replace(/\/$/, '');
+        }, '').replace(/([^:])\/+/g, '$1/').replace(/\/$/, '');
     };
 };

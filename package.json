@@ -29,6 +29,12 @@
   "dist": {
     "shasum": "183c47e8328ae4d4d8e5d2b6e9f63e0217e85ee3"
   },
-  "_from": "router@",
-  "_resolved": "https://registry.npmjs.org/router/-/router-0.6.2.tgz"
+  "_from": "../../../../../tmp/npm-25008-6e2f4121/git-cache-afcbb12fc145/d0a52d67faaba8fb2e6687e1ff7103e90f34dbb6",
+  "_resolved": "git+https://github.com/npenin/router#d0a52d67faaba8fb2e6687e1ff7103e90f34dbb6",
+  "gitHead": "d0a52d67faaba8fb2e6687e1ff7103e90f34dbb6",
+  "bugs": {
+    "url": "https://github.com/gett/router/issues"
+  },
+  "homepage": "https://github.com/gett/router",
+  "_shasum": "0873ead41a75babebad84fc6c2b0e85e0f803da5"
 }
